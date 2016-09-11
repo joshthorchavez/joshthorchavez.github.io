@@ -1,82 +1,115 @@
+.navbar-default {
+  background-color: white;
+  border-color: lightgrey !important;
+  border-top: 0px;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin: 0 auto;
+  border-radius:0px;
+  padding-left:0px;
+  padding-right:00px;
+  margin-bottom:0px;
+  max-width:960px;
+  font-family: 'Wire One', sans-serif;
+  font-size:25px;
+  
+}
+.content {
+  max-width:740px;
+  margin: 0 auto;
+  text-align:center;
+  font-family: 'Wire One', sans-serif;
+  font-size:30px
+}
+.circle {
+    position: relative;
+    margin: 1em auto;
+    width: 4em; height: 4em;
+    border-radius: 50%;
+    background: #D7D8DE;
+    border: 5px solid white;
+    border-right-color: #9098B6;
+}
 
-body {
-  background-color: #382929;
+#bad {
+  border-right-color: #9098B6;
+}
+#good {
+  border-right-color: #9098B6;
+  border-bottom-color: #9098B6;
+}
+#great {
+  border-right-color: #9098B6;
+  border-bottom-color: #9098B6;
+  border-left-color:#9098B6;
+}
+
+#excellent {
+  border-color:#9098B6;
+}
+
+#icon {
+  margin: 10px 10px;
+}
+
+.progress-bar {
+  text-align:left;
+  padding-left:10px;
+  background-color: #9098B6;
+}
+.page-wrapper {
+    width: 740px; /* Your page width */
+    margin: 0 auto; /* To center your page within the body */
+}
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    [class*="col-"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+}
+#myBar {
+  max-width:800px;
+  padding-right: 30px;
+  padding-left: 40px;
+  background-color:white;
+}
+
+.page {
+  background-color:white;
+  margin: 0 auto;
+  max-width:960px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+body { 
+    background-image: url('https://pixabay.com/get/e037b70d2cf61c22d2524518a33219c8b66ae3d11eb2144792f2c17b/coding-926242_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact {
+  
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  max-width: 670px;
+}
+
+.footer {
+  color:white;
+  font-family: 'Wire One', sans-serif;
+  font-size:20px;
 }
 img {
   max-width:100%;
 }
-.navbar-default {
-    background-color: #001919;
-    border-color: white;
-    top:0;
+.imgbox {
+    width: 8em; 
+    border: 1px solid white;
+    border-color: #9098B6;
 }
-
-#introBox {
-  color: white;
-  font-family: Trebuchet MS;
-  font-size:20px;
-}
-#header{
-   height:20px;
-   position:fixed;
-   width:100%;
-   z-index:1000;
-}
-.imgHolder {
-  background-color:white;
-  max-width:300px;
-  border-radius:2px;
-  text-align:center;
-}
-
-.mainPage {
-  float: right;
-  width: 90%;
-  align: left;
-}
-.rightPage {
-  position: absolute;
-  float: left;
-  width: 10%;
-  text-align: center;
-  font-size:  8rem;
-  height: 100%;
-}
-
-.page {
-  padding:50px 0px 0px;
-  margin:0 auto;
-  max-width:1000px;
-}
-.about {
-  padding: 10px 60px 60px 60px;
-  background-color:#2A1822;
-}
-.portfolio {
-  padding-top: 40px;
-  background-color:#6C5361;
-  padding-bottom:60px;
-}
-.contact {
-  margin: 0px auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color:#4D3B45;
-}
-.forms {
-  margin: 0px auto;
-  max-width: 400px;
-}
-#roundedBorder {
-  padding:5px;
-  background-color: #26111D;
-  border-radius:50%;
-}
-.portFooter {
-  margin:0px auto;
-  max-width: 1000px;
-  color:white;
-}
-
-
-
