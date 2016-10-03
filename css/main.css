@@ -129,22 +129,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 }
 
-@media screen and (min-width: 651px) and (max-width: 900px){
-	#menuContent {
-		position: relative;
-		top: 100px;
-		width:515px;
-		padding-top: 55px;
-		margin: auto;
-	}
-	#menuLeft {
-		visibility: hidden;
-		display: none;
-	}
-	#menuRight {
-		margin: 0px 0px 0px 0px;
-	}
-}
 
 
 
@@ -318,6 +302,29 @@ h1, h2, h3, h4, h5, h6, p{
 
 #chart {
 	padding: 10px 0px 20px 0px;
+}
+@media screen and (min-width: 651px) and (max-width: 900px){
+	#homeContent {
+		position: relative;
+		top: 100px;
+		width: 515px;
+		padding-top: 55px;
+		margin: auto;
+	}
+	#menuContent {
+		position: relative;
+		top: 100px;
+		width:515px;
+		padding-top: 55px;
+		margin: auto;
+	}
+	#menuLeft {
+		visibility: hidden;
+		display: none;
+	}
+	#menuRight {
+		margin: 0px 0px 0px 0px;
+	}
 }
 
 @media screen and (max-width: 650px) {
