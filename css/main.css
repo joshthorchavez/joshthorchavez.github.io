@@ -322,6 +322,10 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 @media screen and (max-width: 650px) {
+	#background {
+		display: none;
+		visibility: hidden;
+	}
 	#homeContent {
 		position: relative;
 		top: 0;
