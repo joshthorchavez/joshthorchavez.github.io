@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6, p{
 	height: 100%;
 }
 
+@media screen and (min-width: 651px) {
 	#homeContent{
 		position: relative;
 		top: 44px;
@@ -102,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p{
 		padding-bottom: 20px;
 		margin-bottom: 30px;
 	}
-
+}
 /* Main Page + Extras */
 /*This is desktop only*/
 
