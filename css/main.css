@@ -38,24 +38,74 @@ h1, h2, h3, h4, h5, h6, p{
 	height: 100%;
 }
 
+	#homeContent{
+		position: relative;
+		top: 44px;
+		width: 300px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background-color:#783026;
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		margin: 0px auto;
+		padding-top: 55px;
+		margin-bottom: 30px;
+	}
+	#menuLeft {
+		width: 225px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background-color:#783026;
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		height: 450px;
+		margin: 0px 10px 30px 20px;
+		float:left;
+
+	}
+	#menuRight {
+		width: 515px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background-color:#783026;
+		background: linear-gradient(#772F25, #AE4237);
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		height: 450px;
+		margin: 0px 20px 30px 10px;
+		float:right;
+
+	}
+	#bodyContent{
+		position: relative;
+		top: 200px;
+		width: 650px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background: linear-gradient(#772F25, #AE4237);
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		margin: 0px auto;
+		padding-top: 55px;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+	}
 
 /* Main Page + Extras */
 /*This is desktop only*/
-#homeContent{
-	position: relative;
-	top: 44px;
-	width: 300px;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
-	border-radius: 18px;
-	background-color:#783026;
-	-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	text-align: center;
-	margin: 0px auto;
-	padding-top: 55px;
-}
+
 #mainImg img {
 	width: 262px;
 	height: auto;
@@ -97,37 +147,9 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 
-#menuLeft {
-	width: 225px;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
-	border-radius: 18px;
-	background-color:#783026;
-	-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	text-align: center;
-	height: 450px;
-	margin: 0px 10px 0px 20px;
-	float:left;
-}
 
-#menuRight {
-	width: 515px;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
-	border-radius: 18px;
-	background-color:#783026;
-	background: linear-gradient(#772F25, #AE4237);
-	-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	text-align: center;
-	height: 450px;
-	margin: 0px 20px 0px 10px;
-	float:right;
 
-}
+
 
 
 
@@ -180,23 +202,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 /* Body Stuff */
-#bodyContent{
-	position: relative;
-	top: 200px;
-	width: 650px;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
-	border-radius: 18px;
-	background: linear-gradient(#772F25, #AE4237);
-	-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
-	text-align: center;
-	margin: 0px auto;
-	padding-top: 55px;
-	padding-bottom: 20px;
-	margin-bottom: 30px;
-}
+
 
 #flyingfishsecond{
 	position: absolute;
@@ -331,12 +337,76 @@ h1, h2, h3, h4, h5, h6, p{
 #bottomLogoText {
 }
 @media screen and (min-width: 651px) and (max-width: 900px){
+	#homeContent{
+		position: relative;
+		top: 44px;
+		width: 300px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background-color:#783026;
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		margin: 0px auto;
+		padding-top: 55px;
+		margin-bottom: 30px;
+	}
+	#menuLeft {
+		width: 225px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background-color:#783026;
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		height: 450px;
+		margin: 0px 10px 0px 20px;
+		float:left;
+	}
+	#menuRight {
+		width: 515px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background-color:#783026;
+		background: linear-gradient(#772F25, #AE4237);
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		height: 450px;
+		margin: 0px 20px 0px 10px;
+		float:right;
+
+	}
+	#bodyContent{
+		position: relative;
+		top: 200px;
+		width: 650px;
+		-webkit-border-radius: 18px;
+		-moz-border-radius: 18px;
+		border-radius: 18px;
+		background: linear-gradient(#772F25, #AE4237);
+		-webkit-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		-moz-box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		box-shadow: -14px 14px 9px 0px rgba(0,0,0,0.35);
+		text-align: center;
+		margin: 0px auto;
+		padding-top: 55px;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+	}
 	#menuContent {
 		position: relative;
 		top: 100px;
 		width:650px;
 		padding-top: 55px;
 		margin: auto;
+		margin-bottom: 30px;
 	}
 	#menuLeft {
 		visibility: hidden;
@@ -344,29 +414,57 @@ h1, h2, h3, h4, h5, h6, p{
 	}
 	#menuRight {
 		width: 100%;
-		margin: 0px 0px 0px 0px;
+		margin: 0px 0px 30px 0px;
 	}
 
 }
 
 @media screen and (max-width: 650px) {
-	#background {
-		visibility: hidden;
-		display: none;
+	body {
+
+			background-color:#783026;
 	}
-	#homeContent {
+	#homeContent{
+		position: relative;
+		width: 300px;
+		background-color:#783026;
+		text-align: center;
+		margin: 0px auto;
+		padding-top: 55px;
 		width: 100%;
 		height: 100%;
+		border-radius: 0px;
+	}
+	#menuRight {
+		background-color:#783026;
+		text-align: center;
+		margin: 0px 20px 0px 10px;
+		float:right;
+		width: 100%;
+		height: auto;
 		margin: 0px auto;
 		border-radius: 0px;
 		top: 0px;
-		padding-bottom: 55px;
+		margin: 0px;
+	}
+	#bodyContent{
+		background-color:#783026;
+		position: relative;
+		text-align: center;
+		margin: 0px auto;
+		padding-top: 55px;
+		width: 100%;
+	}
+	#background {
+		visibility: hidden;
+		display: none;
 	}
 	#flyingfish {
 		display: none;
 		visibility: hidden;
 	}
 	#mainImg {
+		padding-top: 55px;
 		max-width: 100%;
 	}
 	#mainImg img{
@@ -389,15 +487,6 @@ h1, h2, h3, h4, h5, h6, p{
 	#menuLeft {
 		visibility: hidden;
 		display: none;
-	}
-	#menuRight {
-		width: 100%;
-		height: auto;
-		margin: 0px auto;
-		border-radius: 0px;
-		top: 0px;
-		margin: 0px;
-		padding-bottom: 40px;
 	}
 	#menuText {
 		width: 85%;
@@ -426,17 +515,9 @@ h1, h2, h3, h4, h5, h6, p{
 		display: none;
 	}
 
-	#bodyContent {
-			width: 100%;
-			height: 100%;
-			margin: 0px auto;
-			border-radius: 0px;
-			top: 0px;
-			padding-top: 55px;
-			padding-bottom: 75px;
-	}
 	#bodyText {
 		width: 80%;
+		height: auto;
 	}
 	#bodyText h1 {
 		font-size: 33px;
@@ -450,7 +531,6 @@ h1, h2, h3, h4, h5, h6, p{
 		font-family: Raleway-ExtraBold;
 		font-size: 16px;
 		text-align: center;
-		padding-bottom: 10px;
 	  text-shadow: -4px 4px 20px black;
 	}
 	#akSeafood {
@@ -459,7 +539,6 @@ h1, h2, h3, h4, h5, h6, p{
 		font-family: Raleway-SemiBold;
 		font-size: 12px;
 		text-align: center;
-		padding-bottom: 10px;
 	  text-shadow: -4px 4px 20px black;
 	}
 	#innerlist{
@@ -467,13 +546,16 @@ h1, h2, h3, h4, h5, h6, p{
 		width: 60%;
 		font-size: 11px;
 	}
+
 	#list a {
 		float:left;
 		width: 100%;
 		font-size: 11px;
 	}
 	#bottomLogoText {
+		background-color:#783026;
 		padding-top: 10px;
+		padding-bottom: 30px;
 		float:left;
 		width: 100%;
 	}
